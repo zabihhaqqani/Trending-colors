@@ -6,7 +6,7 @@ let btn = document.getElementById("btn");
 //selecting background
 let color = document.querySelector(".color")
 
-
+//click handler
 btn.addEventListener("click", function clickHandler(){
 
     let randomNumber = random()

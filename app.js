@@ -1,4 +1,4 @@
-const colors = ["#ef4444","#f59e0b","#eab308","#84cc16","#22c55e","#10b981","#14b8a6","#06b6d4","#0ea5e9","#3b82f6","#4f46e50","#a855f7","#f43f5e"]
+const colors = ["#EF4444","#F59E0B","#EAB308","#84CC16","#22C55E","#10B981","#14B8A6","#06B6D4","#0EA5E9","#3B82F6","#4F46E50","#A855f7","#F43f5E"]
 
 // selecting button
 let btn = document.getElementById("btn");
@@ -8,7 +8,7 @@ let color = document.querySelector(".color")
 
 //click handler
 btn.addEventListener("click", function clickHandler(){
-
+  
     let randomNumber = random()
     document.body.style.backgroundColor = colors[randomNumber]
     color.textContent = colors[randomNumber]
@@ -19,3 +19,4 @@ btn.addEventListener("click", function clickHandler(){
 function random(){
     return Math.floor(Math.random()*colors.length)
 }
+
